@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interfejsi\ISmartContract.cs" />
+    <Compile Include="Interfejsi\IUser.cs" />
     <Compile Include="Klase\SmartContract.cs" />
+    <Compile Include="Klase\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -12,10 +12,11 @@ namespace Common.Klase
         public List<User> Users { get; set; }
         public List<Miner> Miners { get; set; }
 
-        //potrebno je napraviti klase Miner i user kako ne bi bacalo greske
+        //potrebno je napraviti jos klasu Miner kako ne bi bacalo greske, voditi racuna da se konstruktori poklapaju sa ovde napisanim
+        
         public SmartContract()
         {
-            Users = new List<Client>();
+            Users = new List<User>();
             Miners = new List<Miner>();
 
         }
