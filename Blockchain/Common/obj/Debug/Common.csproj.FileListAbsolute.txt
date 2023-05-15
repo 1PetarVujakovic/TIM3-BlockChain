@@ -1,0 +1,6 @@
+C:\Users\Pera\Desktop\TIM3-BlockChain\Blockchain\Common\bin\Debug\Common.dll
+C:\Users\Pera\Desktop\TIM3-BlockChain\Blockchain\Common\bin\Debug\Common.pdb
+C:\Users\Pera\Desktop\TIM3-BlockChain\Blockchain\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\Pera\Desktop\TIM3-BlockChain\Blockchain\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Pera\Desktop\TIM3-BlockChain\Blockchain\Common\obj\Debug\Common.dll
+C:\Users\Pera\Desktop\TIM3-BlockChain\Blockchain\Common\obj\Debug\Common.pdb
