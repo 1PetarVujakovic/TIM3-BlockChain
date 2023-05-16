@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Common.Interfejsi
 {
-    public interface IUser
+    public interface IClient
     {
         bool PosaljiPodatak();
     }

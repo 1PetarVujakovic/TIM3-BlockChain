@@ -13,7 +13,7 @@ namespace Common.Klase
         public DateTime? vreme;
     }
 
-    public class User : IUser
+    public class Client : IClient
     {
         public Guid Id { get; set; }
 
@@ -21,7 +21,7 @@ namespace Common.Klase
 
         public int Vrednost { get; set; }
 
-        public User(ISmartContract smart)
+        public Client(ISmartContract smart)
         {
             SmartContract = smart;
         }

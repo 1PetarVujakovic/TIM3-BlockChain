@@ -45,12 +45,12 @@
     <Compile Include="Interfejsi\IBlockChain.cs" />
     <Compile Include="Interfejsi\IMiner.cs" />
     <Compile Include="Interfejsi\ISmartContract.cs" />
-    <Compile Include="Interfejsi\IUser.cs" />
+    <Compile Include="Interfejsi\IClient.cs" />
     <Compile Include="Klase\Block.cs" />
     <Compile Include="Klase\BlockChain.cs" />
     <Compile Include="Klase\Miner.cs" />
     <Compile Include="Klase\SmartContract.cs" />
-    <Compile Include="Klase\User.cs" />
+    <Compile Include="Klase\Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -25,14 +25,14 @@ namespace Common.Klase
         public int indikator { get; set; }
 
         public Miner() { }
-        public Miner(SmartContract sm, string userName, string password, double stanjeNaRacunu)
+        public Miner(SmartContract smart, string userName, string password, double stanjeNaRacunu)
         {
             Id = Guid.NewGuid();
             UserName = userName;
             Password = password;
             StanjeNaRacunu = stanjeNaRacunu;
-            SmartContract = sm;
-            Miners = sm.Miners;
+            SmartContract = smart;
+            Miners = smart.Miners;
             BlockChain = new BlockChain();
         }
 
@@ -84,8 +84,7 @@ namespace Common.Klase
                     {
                         if (indikator == 0)
                         {
-                            Random rand = new Random();
-                            StanjeNaRacunu += rand.Next(1, 10);
+                            StanjeNaRacunu += 1;
                             Console.WriteLine("Resenje nadjeno za vrednost unesenu od strane: " + UserName);
                         }
                         return true;

@@ -9,14 +9,14 @@ namespace Common.Klase
 {
     public class SmartContract : ISmartContract
     {
-        public List<User> Users { get; set; }
+        public List<Client> Clients { get; set; }
         public List<Miner> Miners { get; set; }
 
-        //potrebno je napraviti jos klasu Miner kako ne bi bacalo greske, voditi racuna da se konstruktori poklapaju sa ovde napisanim
+        
         
         public SmartContract()
         {
-            Users = new List<User>();
+            Clients = new List<Client>();
             Miners = new List<Miner>();
 
         }
@@ -31,7 +31,7 @@ namespace Common.Klase
                 Random rand = new Random();
                 int br = rand.Next(0, Miners.Count);
                 Miner miner = Miners[br];
-                throw new NotImplementedException();
+                return miner.Validiraj(block);
             }
 
             return false;
