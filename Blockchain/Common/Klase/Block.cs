@@ -31,10 +31,10 @@ namespace Common.Klase
         {
             using (SHA256 sha256 = SHA256.Create())
             {
-                Random rnd = new Random();
-                string pom = Convert.ToString(rnd.Next(100000000));
+                
+                string podaci = this.Id.ToString() + this.Vrednost.vrednost + this.Datum.ToString();
 
-                byte[] value = sha256.ComputeHash(Encoding.UTF8.GetBytes(pom));
+                byte[] value = sha256.ComputeHash(Encoding.UTF8.GetBytes(podaci));
                 return Encoding.UTF8.GetString(value);
             }
         }

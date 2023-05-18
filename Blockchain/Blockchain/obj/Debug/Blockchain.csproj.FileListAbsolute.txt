@@ -9,3 +9,13 @@ C:\Users\Pera\Desktop\TIM3-BlockChain\Blockchain\Blockchain\obj\Debug\Blockchain
 C:\Users\Pera\Desktop\TIM3-BlockChain\Blockchain\Blockchain\obj\Debug\Blockchain.csproj.CopyComplete
 C:\Users\Pera\Desktop\TIM3-BlockChain\Blockchain\Blockchain\obj\Debug\Blockchain.exe
 C:\Users\Pera\Desktop\TIM3-BlockChain\Blockchain\Blockchain\obj\Debug\Blockchain.pdb
+C:\Users\Marko\Source\Repos\TIM3-BlockChain\Blockchain\Blockchain\bin\Debug\Blockchain.exe.config
+C:\Users\Marko\Source\Repos\TIM3-BlockChain\Blockchain\Blockchain\bin\Debug\Blockchain.exe
+C:\Users\Marko\Source\Repos\TIM3-BlockChain\Blockchain\Blockchain\bin\Debug\Blockchain.pdb
+C:\Users\Marko\Source\Repos\TIM3-BlockChain\Blockchain\Blockchain\bin\Debug\Common.dll
+C:\Users\Marko\Source\Repos\TIM3-BlockChain\Blockchain\Blockchain\bin\Debug\Common.pdb
+C:\Users\Marko\Source\Repos\TIM3-BlockChain\Blockchain\Blockchain\obj\Debug\Blockchain.csproj.AssemblyReference.cache
+C:\Users\Marko\Source\Repos\TIM3-BlockChain\Blockchain\Blockchain\obj\Debug\Blockchain.csproj.CoreCompileInputs.cache
+C:\Users\Marko\Source\Repos\TIM3-BlockChain\Blockchain\Blockchain\obj\Debug\Blockchain.csproj.CopyComplete
+C:\Users\Marko\Source\Repos\TIM3-BlockChain\Blockchain\Blockchain\obj\Debug\Blockchain.exe
+C:\Users\Marko\Source\Repos\TIM3-BlockChain\Blockchain\Blockchain\obj\Debug\Blockchain.pdb

@@ -60,6 +60,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlockChainTest.cs" />
+    <Compile Include="BlockTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SmartContractTest.cs" />
   </ItemGroup>

@@ -30,8 +30,6 @@ namespace Common.Klase
         {
 
             Podatak data;
-            /*Random rand = new Random();
-            int d = rand.Next();*/
             data.vrednost = Vrednost.ToString();
             data.vreme = DateTime.Now;
             return SmartContract.NapraviBlock(data);
