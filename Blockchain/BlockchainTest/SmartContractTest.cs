@@ -17,6 +17,7 @@ namespace BlockchainTest
             SmartContract sc = new SmartContract();
             Podatak p = new Podatak();
             p.vrednost = "test";
+            p.vreme = DateTime.Now;
 
             Miner m = new Miner();
             sc.Miners.Add(m);

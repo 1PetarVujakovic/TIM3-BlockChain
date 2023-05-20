@@ -103,7 +103,7 @@ namespace BlockchainTest
             Podatak p = new Podatak();
             p.vreme = null;
             p.vrednost = null;
-            Block? b = null;
+            Block b = null;
 
             //Act
             bool res = m.ObavestiOstaleMinere(b);
