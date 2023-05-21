@@ -19,8 +19,6 @@ namespace Common.Klase
 
         public ISmartContract SmartContract { get; set; }
 
-        public int Vrednost { get; set; }
-
         public Client(ISmartContract smart)
         {
             SmartContract = smart;
@@ -30,7 +28,9 @@ namespace Common.Klase
         {
 
             Podatak data;
-            data.vrednost = Vrednost.ToString();
+            Random rnd = new Random();
+            int d = rnd.Next();
+            data.vrednost = d.ToString();
             data.vreme = DateTime.Now;
             return SmartContract.NapraviBlock(data);
         }
