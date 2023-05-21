@@ -10,5 +10,7 @@ namespace Common.Interfejsi
     public interface ISmartContract
     {
         bool NapraviBlock(Podatak data);
+
+        bool Provera(Podatak data);
     }
 }

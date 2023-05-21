@@ -17,15 +17,12 @@ namespace BlockchainTest
         [Test]
         public void SendData_ReturnsTrue()
         {
-
-            //Arrange
             var mock = new Mock<ISmartContract>();
             mock.Setup(x => x.NapraviBlock(It.IsAny<Podatak>())).Returns(true);
             Client c = new Client(mock.Object);
-            //Act
+
             bool result = c.PosaljiPodatak();
 
-            //Assert
             Assert.True(result);
 
 
@@ -35,14 +32,12 @@ namespace BlockchainTest
         public void SendData_ReturnsFalse()
         {
 
-            //Arrange
             var mock = new Mock<ISmartContract>();
             mock.Setup(x => x.NapraviBlock(It.IsAny<Podatak>())).Returns(false);
             Client c = new Client(mock.Object);
-            //Act
+          
             bool result = c.PosaljiPodatak();
 
-            //Assert
             Assert.False(result);
 
         }

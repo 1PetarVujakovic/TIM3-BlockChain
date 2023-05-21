@@ -17,7 +17,6 @@ namespace Common.Klase
         public BlockChain BlockChain { get; set; }
         public ISmartContract SmartContract { get; set; }
         public string UserName { get; set; }
-
         public string Password { get; set; }
 
         public double StanjeNaRacunu { get; set; }
@@ -89,16 +88,12 @@ namespace Common.Klase
                         }
                         return true;
                     }
-
-
                 }
                 else
                 {
                     return false;
                 }
-
             }
-
         }
 
         public bool ObavestiOstaleMinere(Block block)

@@ -42,17 +42,11 @@ namespace BlockchainTest
             p.vrednost = "test";
             p.vreme = DateTime.Now;
 
-
             Block b1 = new Block(p);
-
 
             Assert.AreEqual(p.vrednost, b1.Vrednost.vrednost);
             Assert.AreEqual(p.vreme, b1.Vrednost.vreme);
 
-
         }
-
-
-
     }
 }

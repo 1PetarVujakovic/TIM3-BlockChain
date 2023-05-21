@@ -43,6 +43,30 @@ namespace BlockchainTest
         }
 
         [Test]
+        public void Provera_VrednostNull_ReturnsFalse()
+        {
+            SmartContract sc = new SmartContract();
+            Podatak p = new Podatak();
+            p.vrednost = null;
+           
+            bool result = sc.Provera(p);
+
+            Assert.False(result);
+        }
+
+        [Test]
+        public void Provera_VrednostNotNull_ReturnsTrue()
+        {
+            SmartContract sc = new SmartContract();
+            Podatak p = new Podatak();
+            p.vrednost = "test";
+
+            bool result = sc.Provera(p);
+
+            Assert.True(result);
+        }
+
+        [Test]
         public void ConstructorTest()
         {
             SmartContract sc = new SmartContract();
