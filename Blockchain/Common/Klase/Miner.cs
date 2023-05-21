@@ -84,7 +84,6 @@ namespace Common.Klase
                         if (indikator == 0)
                         {
                             StanjeNaRacunu += 1;
-                            Console.WriteLine("Resenje nadjeno za vrednost unesenu od strane: " + UserName);
                         }
                         return true;
                     }
